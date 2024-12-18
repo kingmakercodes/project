@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Luxury Watch Store - Timeless Elegance and Precision Craftsmanship">
+    <meta name="keywords" content="watch, watches, luxury, bespoke, heirloom, premium, elegance, expensive, class">
+    <meta name="author" content="Marc Banson">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/homepage_style.css">
+    <link rel="preload" href="homepage_app.js" as="script">
+
+    <title>The Caveman - Luxury Timepieces</title>
+
+</head>
+
+<body>
+
+<!-- Header Section -->
+<header class="header" role="banner">
+
+    <div class="header-container">
+
+        <div class="logo" aria-label="The Caveman Watches">
+            <a href="#" aria-current="page">The Caveman</a>
+        </div>
+
+        <nav class="nav" role="navigation" aria-label="Main Navigation">
+            <ul class="nav-list">
+                <li><a href="#" aria-current="page">Home</a></li>
+                <li><a href="pages/products.html" class="showroom-page">Showroom</a></li>
+                <li><a href="#" class="men-category-page">Men</a></li>
+                <li><a href="#" class="women-category-page">Women</a></li>
+                <li><a href="#" class="about-page">About</a></li>
+            </ul>
+        </nav>
+
+        <form class="search-box" role="search">
+            <label for="site-search" class="visually-hidden"></label>
+            <input
+                    type="search"
+                    id="site-search"
+                    placeholder="Search watches"
+                    aria-label="Search through site content"
+            >
+            <button type="submit" aria-label="Search">Search</button>
+        </form>
+
+        <div class="user-container">
+            <div class="cart-container">
+                <button id="cart-toggle" aria-label="View Shopping Cart">
+                    Cart (<span id="cart-item-count">0</span>)
+                </button>
+            </div>
+
+            <div class="auth-user">
+                <a href="#signup" class="signup-link">Signup</a>
+            </div>
+        </div>
+
+    </div>
+
+</header>
+
+<main class="main">
+
+    <!-- Hero Section -->
+    <section class="hero" aria-labelledby="hero-title">
+
+        <div class="hero-container">
+
+            <div class="hero-content">
+                <h1 id="hero-title" class="hero-title">
+                    Discover Timeless, Modern Lux.
+                </h1>
+                <p class="hero-description">
+                    Explore our exclusive collection of luxury heirlooms
+                    custom-tailored to last generations.
+                </p>
+                <a href="#" class="btn btn-primary" aria-label="View Product Showroom">
+                    View Showroom
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Product Section -->
+    <section id="products" class="products">
+
+        <div class="product-container">
+            <h2 class="section-title">Collectors' Choice</h2>
+
+            <div id="product-list" class="product-list">
+
+                <!-- Product items -->
+                <div class="product-item">
+                    <img src="assets/images/watch2.jpg" alt="Product 1" class="product-image">
+                    <h3 class="product-name">The Golden Hour</h3>
+                    <p class="product-description">
+                        A timeless classic precise in her elegance and bespoke in her design.
+                        Custom modelled for Ghana's first president as he attended a summit
+                        with the Queen in Great Britain.
+                    </p>
+                    <p class="product-price">$12,600</p>
+                    <button class="btn add-to-cart" aria-label="Add product to Cart">
+                        Add to cart
+                    </button>
+                </div>
+
+                <div class="product-item">
+                    <img src="assets/images/watch1.jpg" alt="Product 2" class="product-image">
+                    <h3 class="product-name">Caveman M3 Silver Eon</h3>
+                    <p class="product-description">
+                        Modern finally meets class on the Silver Eon. Now this is something all renowned
+                        collectors agree on. Designed to adapt to the ever-growing concepts of fashion
+                        among connoisseurs.
+                    </p>
+                    <p class="product-price">$10,340</p>
+                    <button class="btn add-to-cart" aria-label="Add product to Cart">
+                        Add to cart
+                    </button>
+                </div>
+
+                <div class="product-item">
+                    <img src="assets/images/watch3.jpg" alt="Product 3" class="product-image">
+                    <h3 class="product-name">Duke Marcelus of Bensonmore 1845V3</h3>
+                    <p class="product-description">
+                        It is said of this masterpiece that her blueprints are from the lost designs
+                        of Michelangelo himself; originally meant to be his tribute to God should He ever descend
+                        from on the heavens high.
+                    </p>
+                    <p class="product-price">$59,700</p>
+                    <button class="btn add-to-cart" aria-label="Add product to Cart">
+                        Add to cart
+                    </button>
+                </div>
+
+                <!-- More products to be added dynamically with JavaScript -->
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+
+        <div class="about-container">
+            <h2 class="section-title">About The Caveman</h2>
+
+            <p>
+                From old, we have known that timekeeping isn't just about the watch:
+                it's the feeling it evokes, the memories and emotions we associate with it.
+                Whether it's time spent with family or making an impression on who's important to us,
+                that's what makes time a memorable experience.
+            </p>
+
+            <p>
+                That is why we craft timepieces that are as functional as they are beautiful:
+                to embody your sophistication, your ideals and attest to the person you are -
+                a paragon of elegance.
+            </p>
+
+            <div class="cta-btn">
+                <a href="#products" class="btn btn-primary">Explore Showroom</a>
+            </div>
+        </div>
+
+    </section>
+
+</main>
+
+<footer class="footer">
+
+    <div class="footer-content">
+        <p>&copy; 2024 The Caveman Watches. All rights reserved.</p>
+
+        <nav class="footer-nav" aria-label="Footer Navigation">
+            <a href="#privacy">Privacy Policy</a>
+            <a href="#terms">Terms of Service</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+
+</footer>
+
+<script src="homepage_app.js" type="module"></script>
+</body>
+</html>

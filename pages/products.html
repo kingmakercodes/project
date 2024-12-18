@@ -1,0 +1,129 @@
+<!-- products.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Luxury Watch Store - Timeless Elegance and Precision Craftsmanship">
+
+    <title>Products - The Caveman</title>
+
+    <link rel="stylesheet" href="../css/products_style.css">
+</head>
+
+<body>
+
+<!-- Header Section -->
+<header class="header" role="banner">
+
+    <div class="header-container">
+
+        <div class="logo" aria-label="The Caveman Watches">
+            <a href="#" aria-current="page">The Caveman</a>
+        </div>
+
+        <nav class="nav" role="navigation" aria-label="Main Navigation">
+            <ul class="nav-list">
+                <li><a href="../index.html" class="homepage">Home</a></li>
+                <li><a href="/pages/products.html" aria-current="page" class="showroom-page">Showroom</a></li>
+                <li><a href="#" class="men-category-page">Men</a></li>
+                <li><a href="#" class="women-category-page">Women</a></li>
+                <li><a href="#" class="about-page">About</a></li>
+            </ul>
+        </nav>
+
+        <form class="search-box" role="search">
+            <label for="site-search" class="visually-hidden"></label>
+            <input
+                    type="search"
+                    id="site-search"
+                    placeholder="Search watches"
+                    aria-label="Search through site content"
+            >
+            <button type="submit" aria-label="Search">Search</button>
+        </form>
+
+        <div class="user-container">
+            <div class="cart-container">
+                <button id="cart-toggle" aria-label="View Shopping Cart">
+                    Cart (<span id="cart-item-count">0</span>)
+                </button>
+            </div>
+
+            <div class="auth-user">
+                <a href="#signup" class="signup-link">Signup</a>
+            </div>
+        </div>
+
+    </div>
+
+</header>
+
+<main class="main">
+    <!-- Product Section -->
+    <section id="products" class="products">
+
+        <div class="product-container">
+            <h2 class="section-title">Featured Products</h2>
+
+            <div class="product-detail">
+                <img src="../assets/images/silver.jpg" alt="Oval Gemstone Signet Ring" class="product-image">
+
+                <div class="product-info">
+                    <h3 class="product-name">Oval Gemstone Signet Ring</h3>
+                    <p class="product-rating">★★★★☆ 279k Reviews</p>
+                    <p class="product-price">$40.99 <span class="tax-included">Tax included.</span></p>
+                    <p class="product-description">
+                        This Signet's About To Be Your New Signature. It's An Approachable Power Move, Handcrafted in Sterling Silver.
+                    </p>
+                    <div class="product-details">
+                        <h4>Details</h4>
+                        <p>Colour: Black</p>
+                        <p>Size: 2 mm, 3.5 mm, 4 mm</p>
+                        <p>Length: 18" (Short)</p>
+                    </div>
+                    <button class="btn add-to-cart" aria-label="Add product to Cart">Add to cart</button>
+                </div>
+            </div>
+
+            <h2 class="section-title">You may also like</h2>
+            <div id="product-list" class="product-list">
+                <!-- Similar product items -->
+                <div class="product-item">
+                    <img src="../assets/images/anchor.jpg" alt="Product 1" class="product-image">
+                    <h3 class="product-name">Anchor Mystique Anubis M47e</h3>
+                    <p class="product-price">$68</p>
+                    <button class="btn add-to-cart" aria-label="Add product to Cart">
+                        Add to cart
+                    </button>
+                </div>
+                <div class="product-item">
+                    <img src="../assets/images/antique.jpg" alt="Product 2" class="product-image">
+                    <h3 class="product-name">Antique Claymore c.1923s</h3>
+                    <p class="product-price">$87</p>
+                    <button class="btn add-to-cart" aria-label="Add product to Cart">
+                        Add to cart
+                    </button>
+                </div>
+                <!-- More products... -->
+            </div>
+        </div>
+
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="footer-content">
+        <p>&copy; 2024 The Caveman Watches. All rights reserved.</p>
+        <nav class="footer-nav" aria-label="Footer Navigation">
+            <a href="#privacy">Privacy Policy</a>
+            <a href="#terms">Terms of Service</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+</footer>
+
+<script src="homepage_app.js" type="module"></script>
+</body>
+</html>
