@@ -64,11 +64,6 @@ The project consists of the following key files and directories:
   - Background story of "The Caveman" and its commitment to quality.
   - Emphasis on the emotional connection to timepieces.
 
-### 7. `favicon.ico`
-- **Purpose**: Small icon displayed in the browser tab for the website.
-- **Key Features**:
-  - Enhances brand recognition and user experience.
-
 ## Development and Deployment
 - **Technologies Used**:
   - HTML5 for structure and content.
@@ -77,10 +72,10 @@ The project consists of the following key files and directories:
 - **Deployment**: The project can be hosted on any web server or static site hosting service (e.g., GitHub Pages, Netlify).
 
 ## Future Enhancements
-- Implement a backend for user authentication and order processing.
-- Add a database to manage product inventory and user data.
-- Enhance the product page with filtering and sorting options.
-- Improve accessibility features based on user feedback.
+- Will implement a backend for user authentication and order processing.
+- To add a database to manage product inventory and user data.
+- Will enhance the product page with filtering and sorting options.
+- Will improve accessibility features based on user feedback.
 
 ## Conclusion
 This project aims to create a sophisticated online presence for "The Caveman - Luxury Timepieces," providing users with an engaging and seamless shopping experience. The structure and components are designed to be scalable and maintainable, allowing for future growth and enhancements.
