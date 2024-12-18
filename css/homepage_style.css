@@ -308,7 +308,7 @@ h1, h2, h3 {
     background-color: var(--color-primary-dark);
     color: white;
     text-decoration: none;
-    border-radius: 50px;
+    border-radius: 10px;
     transition: background-color 0.3s ease;
 }
 
