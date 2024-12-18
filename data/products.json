@@ -1,0 +1,14 @@
+[
+  {
+    "image": "../assets/images/anchor.jpg",
+    "name": "Anchor Mystique Anubis M47e",
+    "price": "$6,800",
+    "description": "A stunning anchor design with intricate details."
+  },
+  {
+    "image": "../assets/images/antique.jpg",
+    "name": "Antique Claymore c.1923s",
+    "price": "$8,600",
+    "description": "A beautifully crafted antique of claymore gold."
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "image": "assets/images/watch2.jpg",
+    "name": "The Golden Hour",
+    "description": "A timeless classic precise in her elegance and bespoke in her design. Custom modelled for Ghana's first president as he attended a summit with the Queen in Great Britain.",
+    "price": "$12,600"
+  },
+  {
+    "image": "assets/images/watch1.jpg",
+    "name": "Caveman M3 Silver Eon",
+    "description": "Modern finally meets class on the Silver Eon. Now this is something all renowned collectors agree on. Designed to adapt to the ever-growing concepts of fashion among connoisseurs.",
+    "price": "10,340"
+  },
+  {
+    "image":"assets/images/watch3.jpg",
+    "name":"Marcelus of Bensonmore 1845V3",
+    "description": "It is said of this masterpiece that her blueprints are from the lost designs of Michelangelo himself- originally meant to be his tribute to God should He ever descend from on the heavens high.",
+    "price":"$59,700"
+
+  }
+]
